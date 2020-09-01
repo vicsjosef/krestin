@@ -1,0 +1,51 @@
+<html>
+	<head background ='1.png'>	
+		<title> loe </title>
+		<script type="text/javascript">
+				var name = prompt("who r u?");
+				if (name == 'kristine' || name =='krisel' || name =='kc' || name =='camille' || name =='inca' || name =='esgue')
+				{ 
+					alert("congrats");
+					document.write("I love you " +name);
+				}
+
+				else 
+				{	
+					alert(" tangina ayusin mo naman");
+					alert('try again jfc');
+					location.reload();
+
+				}
+
+				function fn1() 
+				{
+					var rd1 = document.getElementById('rd1');
+					var rd2 = document.getElementById('rd2');
+
+					if (rd1.checked==true)
+						fn2();
+					else if (rd2.checked==true)
+						location.reload();
+					else
+						alert("pls select");
+				}
+
+				function fn2()
+				{
+					document.write('HI kristine, happy 14th monthsary satin, buti umabot lmao. Sobrang daming close calls natin ngayon pero atleast surviving and masaya parin (sana same u thots). I still love you after 14 months, in terms of love I don’t think anything really big changed (negatively), I still love you the same since our first monthsary (maybe a little more, pero let’s not get ahead). Hundreds of fights, thousands of kisses, countless hours of conversation – deep or dumb, and even if we are miles apart and spent more time away than together; nothing changes, ikaw parin and same old love parin. Pano ko nasabi? Ewan lmao. When you know, you just know, y’know. Some things are just too powerful that you can’t explain it. Like God, or kung sino pa man idfk. Minsan this relationship can get pretty daunting and confusing, there are times na walang resolution yung mga away or kahit napag-awayan na noon eh pag aawayan pa ulit bukas, like why bother diba? Pero we can’t afford that kind of negativity lmao, you don’t go looking out to find a puzzle set only to immediately give up pag nakita mo yung number of pieces. Instead, you pick one piece up and check if it works with another piece, and you do it over and over again, and a little picture comes up and you start to appreciate the puzzle a little bit more, you keep at it until the big picture finally comes and you take a deep breath staring longingly at the puzzle and say “wow, sobrang worth it”. I can’t really say kung nabuo na natin yung puzzle, pero we’ve built enough to see the small pictures and be grateful for the pieces that fit. We’ve built enough to make me question myself, which do I love more? The puzzle or the pieces – your pieces. I still don’t have an answer, we’ll just have to wait ‘till we see the big picture. Until then stay strong satin and let’s continue building p.s  firstly I am writing this madaling araw ng sept 1, and I am in a kind of rushy and panicky state kasi lmao. I OVERESTIMATED myself and UNDERESTIMATED the task or yung surprise ko which is yung code or program or whatever, I have a feeling na it’s really simple lang pero it took me fkin days to make it kasi im learning from scratch. Sana pala mas nag allot ako ng time para don, and secondly yung letter sa taas was supposed to be a poem or a prose that follows a puzzle motif pero lmao big oof small brain moment ako, anyway I hope you like it and sana aus narin to as penance. Mwah labyu');
+
+				}
+		</script>
+	</head>
+
+	<body background="1.png">
+		<p>Do you want to continue?</p>
+		<input id="rd1" type="radio" name="g1" value="yes">yes</input>
+		<br>
+		<input id="rd2" type="radio" name="g1" value="no">no</input>
+		<br>
+		<button onclick="fn1()"> enter </button>
+		
+	</body>
+	
+</html>
